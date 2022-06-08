@@ -1,0 +1,13 @@
+/* 600-1000  */
+@media screen and (min-width : 600px) and (max-width : 1000px){
+    body{
+        background-color: lightblue;
+    }
+}
+
+/* 大于1000,小于600 , 逗号相当于or */
+@media screen and (min-width : 1000px) ,(max-width : 600px){
+    body{
+        background-color: lightcoral;
+    }
+}

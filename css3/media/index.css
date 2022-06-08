@@ -1,0 +1,19 @@
+/* 其他（小于600） */
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+/* 屏幕大于600px 时的背景颜色 */
+@media screen and (min-width : 600px) { 
+    body{
+        background-color: lightblue;
+    }
+}
+
+/* 屏幕大于1000px 时的背景颜色 */
+@media screen and (min-width : 1000px) { 
+    body{
+        background-color: lightcoral;
+    }
+}
+
